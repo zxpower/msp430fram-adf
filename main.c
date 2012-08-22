@@ -21,6 +21,7 @@
 //   Built with IAR Embedded Workbench Version: 5.40.3
 //   Built by Reinholds Zviedris - http://reinholds.zviedris.lv/
 //   Partly based on Wombat code - https://github.com/adamgreig/wombat
+//   Partly based on MansOS code - http://mansos.edi.lv/
 //******************************************************************************
 
 #include "main.h"
