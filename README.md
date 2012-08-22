@@ -8,7 +8,7 @@ _by [Reinholds Zviedris] (http://reinholds.zviedris.lv/) & [digiBlink] (http://d
 Support
 -------
 
-If you run into any issues, visit [project's issue page](https://github.com/digiblink/reflaskr/issues) and report an issue.
+If you run into any issues, visit [project's issue page](https://github.com/digiblink/msp430fram-adf/issues) and report an issue.
 
 This is free software so feel free to use it/modify it as you wish.
 
