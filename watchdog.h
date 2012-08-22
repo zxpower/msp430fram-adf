@@ -1,0 +1,6 @@
+#ifndef LYNXNETEMERGENCY_WATCHDOG_H
+#define LYNXNETEMERGENCY_WATCHDOG_H
+
+void watchdog_stop(void);
+
+#endif /*LYNXNETEMERGENCY_WATCHDOG_H*/
