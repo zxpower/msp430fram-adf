@@ -93,62 +93,7 @@ void main(void)
     }
     mdelay(100);
   }
-  
-/*  while(1)
-  {
-    //-.- .--- -.... -.- ... -
-    //            K   J    6     K   S   T
-    //if(!(P1IN & 0x08))
-      mode = (mode==5) ? 0 : mode+1;
-
-    switch(mode)
-    {
-      case 0:
-        tone(TONE,0);
-        off();
-        break;
-      case 1:
-        if(i==40)
-        {
-          morse_string("212012220211110212011102");
-          i = 0;
-        }
-        else
-          i++;
-        break;
-      case 2:
-        i = 40;
-        tone(TONE,0);
-        tx();
-        break;
-      case 3:
-        tone(2500,0);
-        tx();
-        tone(2500,1);
-        break;
-      case 4:
-        tone(1000,0);
-        tx();
-        tone(1000,1);
-        break;
-      default:
-        tone(TONE,0);
-        off();
-        break;
-    }
-				
-    _delay_ms(250);
-  }*/
 }
-
-/*#pragma vector=TIMER0_A1_VECTOR
-__interrupt void Timer0_A1 (void)
-{
-	//volatile unsigned int i;
-	
-	//P2OUT = cosn[i];
-	i = (i==15) ? 0 : i+1;
-}*/
 
 void spi_out(u08 byte)
 {
