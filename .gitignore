@@ -44,3 +44,6 @@ Debug/Obj/watchdog.r43
 Debug/Obj/watchdog.pbi
 
 Debug/Obj/usart.r43
+
+*.tmp
+*.tmp.*
